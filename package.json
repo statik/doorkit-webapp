@@ -2,8 +2,8 @@
   "name": "doorkit-webapp",
   "version": "0.0.1",
   "dependencies": {
-    "express": "3.1.x"
-    
+    "express": "3.1.x",
+    "hogan-express": "0.3.3"
   },
   "engines": {
     "node": "0.10.x",
