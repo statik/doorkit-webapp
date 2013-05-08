@@ -20,7 +20,7 @@ function get(path, callback) {
 }
 
 function onDoorOpenClick() {
-  get('/hello/world', function(err, result) {
+  get('/latch/open', function(err, result) {
     $('body').append('<pre>server says: ' + JSON.stringify(result) + '</pre>');
   });
 }
